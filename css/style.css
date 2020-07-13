@@ -83,18 +83,24 @@ a {text-decoration: none;}
 
 .principal-button:hover {transform: translateY(-5px);}
 
-.second-section {
+.justify-section {
     display: flex;
     justify-content: center;
 }
 
-.text-term1 {
+.text-term {
     margin-top: 3rem;
     text-align: center;
     max-width: 600px;
     font-size: 1.5rem;
 }
 
+.text-term h2 {
+    font-size: 3rem;
+    color: #9b59b6;
+}
+
+.third-section {background-color: #eef2f5;}
 
 .footer {
     height: 50px;
