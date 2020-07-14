@@ -40,3 +40,9 @@
         grid-column: 1 / 2;
     }
 }
+
+@media (max-width: 500px) {
+    .grid-container {
+        padding: 0;
+    }
+}

@@ -95,7 +95,8 @@ a {text-decoration: none;}
     justify-content: center;
 }
 
-img {box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);}
+img {box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
 
 .text-term {
     margin-top: 3rem;
@@ -122,4 +123,9 @@ img {box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);}
 
 @media (max-width: 768px) {
     .logo {display: none;}
+    .text-term {max-width: 500px;}
+}
+
+@media (max-width: 500px) {
+    .text-term {max-width: 300px;}
 }
