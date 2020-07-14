@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-h1, h2 {
+h1, h2, pre {
     font-family: 'Chewy', cursive;
     color: #9b59b6;
 }
@@ -118,4 +118,8 @@ img {box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);}
     justify-content: center;
     background-color: rgba(44, 62, 80,1.0);
     color: #dfe6e9;
+}
+
+@media (max-width: 768px) {
+    .logo {display: none;}
 }
