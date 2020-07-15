@@ -5,37 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://www.rebecca-recommends.com/wp-content/uploads/2017/01/cropped-R-favicon-3.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/de6467cf36.js"></script>
     <link rel="stylesheet" href="../css/exercises.css">
     <link rel="stylesheet" href="../../css/style.css">
     <title>Actividad 3</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="../../index.html">
-                <img src="https://www.rebecca-recommends.com/wp-content/uploads/2017/01/cropped-R-favicon-3.png" width="50px" alt="Logo">
-            </a>
+    <!--*** Menú v2 ***-->
+
+    <div class="header navbar">
+        <div class="navbar-logo" style="margin-left: 3rem;">
+                <a href="../../index.html">
+                    <img src="https://www.rebecca-recommends.com/wp-content/uploads/2017/01/cropped-R-favicon-3.png" width="50px" alt="Logo">
+                </a>
         </div>
-        <div class="navbar-menu">
-            <ul>
-                <li>
-                    <a href="../../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./exercise1.html">Actividad 1</a>
-                </li>
-                <li>
-                    <a href="./exercise2.html">Actividad 2</a>
-                </li>
-                <li>
-                    <a style="color: #9b59b6;" href="./exercise3.html">Actividad 3</a>
-                </li>
-                <li>
-                    <a href="./exercise4.html">Actividad 4</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <input type="checkbox" id="chk" />
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu navbar-option" >
+            
+            <div class="menu-right">
+                <a href="../../index.html">Inicio</a>
+                <a href="exercise1.html">Actividad 1</a>
+                <a href="exercise2.html">Actividad 2</a>
+                <a style="color: #9b59b6;" href="exercise3.html">Actividad 3</a>
+                <a href="exercise4.html" >Actividad 4</a>
+            </div>
+            
+
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
 
     <main class="background-img" >
 
