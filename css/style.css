@@ -63,6 +63,12 @@ h1, h2, pre {
     color: #9b59b6;
 }
   
+.img-background {
+    background-image: url('/img/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #chk{
     position: absolute;
     visibility: hidden;
