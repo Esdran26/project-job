@@ -18,6 +18,7 @@ h1, h2, pre {
     display: flex;
     background-color: white;
     position: fixed;
+    z-index: 4;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
