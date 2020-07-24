@@ -26,6 +26,9 @@ h1, h2, pre {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+/* Arreglando bug de las resoluciones de dispositivos
+movil no se lea bien el enlace a la imagen */
+
 .menu a{
     color: black;
     text-transform: uppercase;
